@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Mim</title>
+    <link rel="stylesheet" href="sobremim.css">
+</head>
+<body>
+    <header>
+        <h1>Sobre Mim</h1>
+    </header>
+    <main>
+        <p>A empresa <strong>Agro Certificadora</strong> começou suas atividades em janeiro de 2024,</p>
+        <p>e hoje trabalha com vários exportadores de café entre eles:</p>
+        <p><strong>Gardingo Trading, Tristão e Cia, e de Comércio exterio Copacafe Alpes.</strong></p>
+        <p>Nosso sistema oferece as melhores soluções para certificação de produtos agrícolas, assegurando qualidade e conformidade com normas internacionais.</p>
+
+        <h2>Sua empresa no lugar certo!</h2>       
+
+        <div class="container">
+            <h4>Quer saber mais? Entre em contato conosco:</h4>            
+        </div>
+        <form action="https://formsubmit.co/esperanca@esperanca-aduaneira.com.br" method="POST" class="form">
+            <label for="Nome">Nome</label>
+            <input type="text" nome="Nome" id="nome"required>
+            <label for="telefone">Telefone</label>
+            <input type="tel" name="Telefone" id="Telefone" placeholder="(21)99999-9999" required pattern="\(\d{2}\) \d{4,5}-\d{4}">
+            <textarea id="menssagem" name="menssagem" rows="5" cols="50" placeholder="Escreva Aqui" required></textarea>
+            <input type="hidden" nome="_next" value="html://http://127.0.0.1:5500/Obrigado.html"/>
+            <input type="hidden" nome="_captcha"value=" false"/>           
+            <button type="submit">Enviar</button>
+     </form>          
+    </main>
+    <footer>
+        <a href="Empresa Agro.html">Voltar</a>
+        <a href="Nossos Certificados.html">Próximo</a>
+    </footer>    
+</body>
+</html>

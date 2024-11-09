@@ -1,0 +1,136 @@
+*{
+    margin: o;
+    padding: o;   
+    box-sizing: border-box; 
+}
+body{
+    background-color: #f4f0ea;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+header{
+    padding: 2rem;
+    background-color:  #0c5f0c;
+}
+
+main{
+    padding: 2rem;
+    display: block;
+    flex-direction: column;
+    gap: 1.5rem;
+    text-align: center;
+
+}
+h1{
+    color:white;
+    font-size: 3rem;    
+}
+h2{
+    color:black;
+    font-size: 2.5rem; 
+}
+p{
+    color:black;
+    margin: 0.2rem; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+}
+
+button{
+    background-color: #41d141af;
+    border: none;
+    padding: 0.8rem;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+h4 {
+    color: black;
+    text-align: center;
+    margin: 35px 0 20px 0 !important;
+}
+
+
+footer{
+    background-color: #0c5f0c;
+    color: black;
+    padding: 2rem;
+}
+
+.form{    
+    width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+.form  label,
+.form input,
+.form textarea,
+.form button{
+    display:block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    justify-content: center;    
+} 
+.form label{
+    display: flex;
+    padding: 10px;
+    color: #FFF;
+    text-align: right;
+   justify-content: center;
+}
+
+.form input,
+.form textarea {
+    display: inline-flex;
+    padding-left: 10px;
+}
+
+.form textarea{
+    display: inline-flex; 
+    height:150px;      
+    resize: none;
+}
+
+.form input:hover,
+.form input:focus,
+.form textarea:hover,
+.form textarea:focus{
+    display: inline-flex;
+    padding-left: 10px;
+}
+.form button{
+    display: inline-flex;
+    padding-left: 10px;
+}
+.form button:hover,
+.form button:focus{
+    display: inline-flex;
+    padding-left: 10px;
+    text-align: center;
+}
+a{   
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    text-decoration: none;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+  
